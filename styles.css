@@ -1,0 +1,61 @@
+body {
+  font-family: "Segoe UI";
+  font-weight: 400;
+  max-height: 500px;
+  overflow: auto;
+  width: 300px;
+  border-color: black;
+}
+
+input {
+  width: 100px;
+}
+
+select {
+  width: 55px;
+}
+
+.value-1,
+.value-2 {
+  background-color: skyblue;
+  border-color: rgb(0, 0, 0);
+  font-family: "Segoe UI";
+  font-size: 0.95rem;
+  border: none;
+  position: relative;
+  display: inline-block;
+  margin-bottom: 2.5px;
+}
+
+.dropdown {
+  font-family: "Segoe UI";
+  background-color: skyblue;
+  font-size: 0.95rem;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+}
+
+.new-command,
+.run-command {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  position: relative;
+  display: inline-block;
+  font-weight: bold;
+  padding: 0.25em 0.5em;
+  text-decoration: none;
+  color: #027e8f;
+  background: #ececec;
+  transition: 0.4s;
+}
+
+.new-command:hover {
+  background: #027e8f;
+  color: white;
+}
+
+.run-command:hover {
+  background: #027e8f;
+  color: white;
+}

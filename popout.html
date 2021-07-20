@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>ScrapeX</title>
+  </head>
+  <body>
+    <h1>ScrapeX</h1>
+    <h3>Web Scraper and Automation Tool</h3>
+
+    <div class="commands-list">
+      <div class="command-item">
+        <select class="dropdown">
+          <option value="wait">Wait</option>
+          <option value="click">Click</option>
+          <option value="enter">Enter Value</option>
+          <option value="save">Save Value</option>
+        </select>
+        <input class="value-1" placeholder="100ms"/> 
+        <input class="value-2" placeholder="Optional"/> 
+      </div>
+    </div>
+    <br/>
+    <div class="action-buttons">
+      <button class="new-command">Add Command</button>
+      <button class="run-command">Run</button>
+    </div>
+    <textarea style="display:none;"></textarea>
+    <script src="popout.js"></script>
+  </body>
+</html>

@@ -1,0 +1,19 @@
+{
+  "name": "ScrapeX",
+  "version": "1.0.0",
+  "description": "A web scraper and automation tool that enables user to click, save or enter text with a specified time interval.",
+  "author": "Tejas Bhale",
+  "permissions": ["<all_urls>"],
+  "browser_action": {
+    "default_title": "ScrapeX",
+    "default_popup": "popout.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["contentScript.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "manifest_version": 2
+}
